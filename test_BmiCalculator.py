@@ -32,7 +32,3 @@ class BmiCalculatorTestCase(unittest.TestCase):
         self.assertEqual(
             calculator.getBmiCat(), "Obese", "Should be Obese"
             )
-
-
-if __name__ == '__main__':
-    unittest.main()

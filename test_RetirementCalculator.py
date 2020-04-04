@@ -20,7 +20,3 @@ class RetirementCalculatorTestCase(unittest.TestCase):
         self.assertEqual(
             calculator.getGoalMet(), False, "Should be False"
             )
-
-
-if __name__ == '__main__':
-    unittest.main()
