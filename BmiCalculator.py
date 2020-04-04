@@ -3,7 +3,7 @@ class BmiCalculator():
         self.heightFt = heightFt
         self.heightIn = heightIn
         self.weightLbs = weight
-    
+
     def getBmiVal(self):
         heightImp = (self.heightFt * 12) + self.heightIn
         heightMet = heightImp * 0.025
