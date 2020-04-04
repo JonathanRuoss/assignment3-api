@@ -15,6 +15,12 @@ class RetirementCalculatorTestCase(unittest.TestCase):
             calculator.getGoalMet(), True, "Should be True"
             )
 
+    def testRetirementCalc3(self):
+        calculator = RetirementCalculator(21, 70000, 20, 1000000000)
+        self.assertEqual(
+            calculator.getGoalMet(), False, "Should be False"
+            )
+
 
 if __name__ == '__main__':
     unittest.main()
