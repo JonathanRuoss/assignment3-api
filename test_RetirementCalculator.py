@@ -9,7 +9,7 @@ class RetirementCalculatorTestCase(unittest.TestCase):
             calculator.getFinalAge(), 74, "Should be 74"
             )
 
-    def testRetirementCalc1(self):
+    def testRetirementCalc2(self):
         calculator = RetirementCalculator(21, 70000, 20, 1000000000)
         self.assertEqual(
             calculator.getFinalAge(), 52932, "Should be 52932"
