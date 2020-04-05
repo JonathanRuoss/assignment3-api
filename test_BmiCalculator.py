@@ -20,7 +20,7 @@ class BmiCalculatorTestCase(unittest.TestCase):
         self.assertEqual(
             calculator.getBmiVal(), 27.8, "Should be 27.8"
             )
-    
+
     def testObeseBmiVal(self):
         calculator = BmiCalculator(6, 0, 250)
         self.assertEqual(
